@@ -43,9 +43,10 @@ Studentnummer: 19072074
 ## Data procesing
   ### Data exploration 
     The student properly examined and visualized the data, distributions, outliers, correlations and used that analysis to give directions for an early hypothesis.
-    in the early stages of the project i have looked at a lot of graphs. we would first look at fast breaks and fast defences. the movements could be split in two movements, rotations and sprints. these two movements used data 
+    in the early stages of the project i have looked at a lot of graphs. we would first look at fast breaks and fast defences. the movements could be split in two movements, rotations and sprints. within those graphs me and martijn came to the conclusion that there are two features that define a sprint. the first and most important feature for sprints is the wheelrotationalspeedX, this shows the wheelturning speed, it will show the push offs of the player. the second feature is the framerotationalspeedZ, this shows the turning speed of the wheelchair, it wil show if the wheelchair is moving in a straight line. 
     
   ### Data cleansing
+  
   
   ### Data preperation 
   
