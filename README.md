@@ -7,6 +7,36 @@ Studentnummer: 19072074
 ## DataCamp course 
 60%
 
+## reflection on own contribution to the poroject
+starr: 
+situatie
+  - wanneer
+  - wie 
+  - hoe
+taak
+  - wat was mijn taak 
+    - wat heb ik gedaan 
+    - wat wilde ik bereieken
+    - wat werd er van je verwacht
+ actie
+  - hoe heb je het opgelost en waarom 
+  - hoe heb je het gedaan
+  - waarom zo leg uit aan de hand van  theoretische concepten the minor or theoretische info van de research
+  - werkte het en waarom
+reflectie
+  - wat heb je geleerd
+  - hoe denk je dat je het hebt gedaan
+  - was je tevreden met het resultaat
+  - wat is de essentie van wat je hebt geleerd.
+  - wat zou je kunnen verbeteren. 
+  - kan je het toepassen in andere situaties.
+ 
+
+## reflection on own learning objectives
+
+
+## evaluation on the group project as a whole
+
 
 ## research project 
 
