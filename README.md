@@ -11,7 +11,9 @@ Studentnummer: 19072074
 ## research project 
 
   ### taskdefinition
-     in the first weeks of the project we had a lot of meeting with the problem ower and the teachers. in these weeks it was        important to learn about the project and discuss thing that neeeded to be done. in those weeks i had the task of leading those meetings so there was 
+     in the first weeks of the project we had a lot of meeting with the problem ower and the teachers.
+     in these weeks it was important to learn about the project and discuss thing that neeeded to be done.
+     in those weeks i had the task of leading those meetings so there was 
       after a few meetings with rienk 
 
   ### evaluation
@@ -43,12 +45,18 @@ Studentnummer: 19072074
 ## Data procesing
   ### Data exploration 
     The student properly examined and visualized the data, distributions, outliers, correlations and used that analysis to give directions for an early hypothesis.
-    in the early stages of the project i have looked at a lot of graphs. we would first look at fast breaks and fast defences. the movements could be split in two movements, rotations and sprints. within those graphs me and martijn came to the conclusion that there are two features that define a sprint. the first and most important feature for sprints is the wheelrotationalspeedX, this shows the wheelturning speed, it will show the push offs of the player. the second feature is the framerotationalspeedZ, this shows the turning speed of the wheelchair, it wil show if the wheelchair is moving in a straight line. 
-    
-  ### Data cleansing
-  
+    in the early stages of the project i have looked at a lot of graphs. we would first look at fast breaks and fast defences. the movements could be split in two movements,
+    rotations and sprints. within those graphs me and martijn came to the conclusion that there are two features that define a sprint. the first and most important feature
+    for sprints is the wheelrotationalspeedX, this shows the wheelturning speed, it will show the push offs of the player. the second feature is the framerotationalspeedZ,
+    this shows the turning speed of the wheelchair, it wil show if the wheelchair is moving in a straight line. 
   
   ### Data preperation 
+  The student prepared the data in an appropriate way, where necessary transforming data, removing outliers, filling in missing values, etc.
+
+    preparing the dataset was my main focus. i looke at the data and searched for paterns in the different features we got from rienk.
+    for this visualization a program was written that i studied and changed for usage. the first changes that were made was simplle multiplications. 
+    this way the numbers were all around the same numbers. +- 500. after i started working with means, and low pass filters. 
+  
   
   ### Data explanation 
   
