@@ -29,7 +29,7 @@ reflectie
   - was je tevreden met het resultaat
   - wat is de essentie van wat je hebt geleerd.
   - wat zou je kunnen verbeteren. 
-  - kan je het toepassen in andere situaties.
+  - kan je het toepassen in andere situaties.-
  
 
 ## reflection on own learning objectives
