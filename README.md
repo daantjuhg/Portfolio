@@ -42,7 +42,9 @@ reflectie
 ### introduction to the subject field and literature research
 Data is everywhere, from Netflix to google maps, we use and make data daily without noticing. This data is what this minor is all about. it can be used to predict/classify all sorts of different subjects, from predicting the cheapest day refilling your car to classifying which plant is which based on the color/length of the petals. Personally, I classified wheelchair movements with my project group. Below is an introduction into this subject with scientific proof researched by me. 
      
-Phones track steps and different sport activities, able bodied people have their movement info at their fingertips. Research from [badar ud din Tahir,S., etall.(2020)](https://ieeexplore.ieee.org/document/9055944).
+Phones track steps and different sport activities, able bodied people have their movement info at their fingertips. Research from [badar ud din Tahir,S., etall.(2020)](https://ieeexplore.ieee.org/document/9055944)shows that machine learning models are able to classify 12 different movements, walking forwards/walking left/ etc., correct with 73.33% accuracy. And a Study by [Zengtao Feng, etall.(2015)](https://ieeexplore.ieee.org/document/7319532)  shows that people are still improving their training speed and test accuracy and stability for these movements through different predictive models.This second study also shows that random forest based models work better than more commonly used classifications and non-ensemble classifiers(KNN SVM BN J48). For wheelchair sports we see a slight research gap. Within wheelchair sports the research into classifying movements or sports in lacking. But in the paper from [R.M.Avan der Slikkeab, M.A.M.Berger, etall.,(2015)](https://www.sciencedirect.com/science/article/abs/pii/S0021929015003231?via%3Dihub) research we can conclude wheelchair sport analysis is on the rise. Wheelchair kinematic analysis may be the first and crucial push this field needed to expand the knowledge of wheelchair movements. 
+Further research into the project will be explained later in the portfolio.
+
      
 
   ### evaluation
