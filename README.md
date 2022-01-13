@@ -8,6 +8,56 @@ Studentnummer: 19072074
 60%
 
 ## reflection on own contribution to the poroject
+### situation
+within the minor applied data science, over the last 17 weeks i worked on project wheels. We got the following assignment from the Dutch national wheelchair basketball team; how can we use IMU data to classify specific wheelchair basketball aspects of a game/match.  
+
+### Tasks: 
+Personally I always want to do good by the team, not lacking in working hours or ethic compared to other students. I also want to get the best result out of the project this means really pushing the boundaries of what we can learn and accomplish in 16/18 weeks of work. 
+
+### Actions:
+Personally, I think I had the least experience of coding in my project team. I tried completing the whole course but found this difficult in terms of overall work pressure. After learning quite a few new programming things I worked a lot with the data exanimating and explanation since, I my mind, this is my field of experience. I tried searching for the features that could support the explanation of movements.  After researching the features, I work on training and validating different models to learn how they work and how to apply them correctly. Personally, I like to do a few presentations, internal as well as external, because this gives me the opportunity to not only tell the class what we as a group are up to, but personally I use these presentations to learn what my peers have done so I can learn from their work in depth. Furthermore, I wrote parts in the research paper, the parts I wrote consists mostly of the models I worked on and the conclusion of the project. 
+
+### Results
+From all the Data camp assignments I completed 56% in total, but never missed any live colleges. Within the data I made several new features, 8 in total. I also gave every feature some sort of definition, so it is easy to sort them for the movements. I made sure that the decision tree an random forest models were working correctly by evaluating each feature input and tuned the models with grid search hyperparameter tuning. I gave a total of 2 internal and 2 external presentations in which I learned a lot about the work of my teammates. 
+
+### Reflection:
+In my opinion my contribution to the project was great. I was always there for our meetings. I tried to do as much coding as I could, sometimes my teammates could just do it faster, which was a great help for when I had questions. For the research paper I tried to keep an overview of the whole paper to help my team write correctly. As meeting leader, I also tried to keep the projects within boundaries which was sometimes hard and I needed think and discuss if some of our workways were leading to good results. In the end I am also quite pleased about my presentations, every time I got compliments for how my PowerPoints were setup and that I explained things in a nice way. Overall, I am quite happy with the way I took part in this project.  
+
+## reflection on own learning objectives
+### Situation
+Within the minor applied data science, the past 17 weeks. I had lessons, assignments and a project in machine learning 
+
+### Tasks 
+Within the minor I wanted to learn how machine learning works, in my own study I have worked with data analysis through MATLAB.  I thought this minor would be a great next step in my data analysis knowledge. 
+
+### Actions
+The minor had 7 data/machine learning lectures and 3 to 4 neural network lectures; I can proudly say I missed none. The minor also gave access to Data camp course, I tried completing the whole course but found this difficult in terms of overall work pressure. the Data camp courses focus mainly on the machine learning part of the minor. The teachers also gave us some assignments within jupyter hub, these assignments helped students learn coding in pyhton with all of its possibility’s, well not all of them of course. Within the projects we had the possibility to apply everything we learned from the teachers directly to real world problems which was…. Challenging.  
+
+### Results
+As stated, before I missed none of the lectures within this minor. It gave me a good insight in the subjects, but I found it sometimes hard to follow because almost everything was new information for me. From all the Data camp assignments I completed 56% in total, in which I learned a lot about the different models and functions. Also, for this subject I sometimes found it hard to follow. As for the assignments in jupyter I did look into some of the subjects but never finished or submitted one. Within the project I wrote two models fully, RFC and decision tree. From the data camp courses I learned how to implement these models and how to tune their hyper parameters through gridsearch. 
+
+### Reflection
+I am happy with the things I have learned from this minor. Although at first it was sometimes hard to keep up. When I was learning for the test, I found that I understand everything from the presentations much better now, this was a ice revelation because before I started learning I thought I did not pick up this much information. Also, within Datacamp I had difficulties understanding the steps they take sometimes. It was frustrating and time consuming so maybe that is one of the reasons I did not finish it all the way. Within the project I found that it is hard to directly implement the things we are still learning. For me it was hard because at the start we did not know anything so how could we make an plan of approach to the whole problem. In the end I can look back on the whole experience and be happy with what I learned and what we as a group accomplished in the project. 
+
+## evaluation on the group project as a whole
+### Situation
+In the last 18 weeks I worked with 4 other students on project wheels. The goal was to create a machine learning program that could analyze IMU data for wheelchair basketball specific actions. 
+
+### Tasks 
+Within this project we would need to stay in touch with our problem owner to succeed. We would work together to research and solve the problem. To enhance our chances of success the group needs to work with scrum. 
+
+### Actions
+At the start of the project, we needed to interview our real problem owner to get an idea for the scope of the project. From these interviews we created a plan of approach which we would send to the problem owner. Using scrum, the project group would meet every morning at 9.30 to update each other on our finished work a planning. We would also meet for retrospectives after every 2 sprint weeks. When we did enough research group members started working on writing machine learning codes. We would write a research paper from the findings we made within the project. 
+
+### Results
+the plan of approach helped us understand the scope, meaning and en result of our problem.  It gave everyone some guidelines through the whole project. The meetings every morning created a nice workspace and work timing. the daily standups also helped us to understand what every group member was doing. The retrospectives helped us expand our knowledge of scrum and we improved our scrum application with every sprint. Within the results we found some interesting findings we could bring to light within the research paper. Our non-defined dataset was indeed a pain in the ass but in the end, it was an interesting problem to solve. 
+
+### Reflection
+Within this group the project went pretty smooth in my opinion. The working environment we created was pretty sturdy but still flexible. We would meet 4 out of 5 school days at 9:30 in the morning. But if you had any questions throughout the day everyone was always helpful. We had one small incident involving a 5th member of the group. He unfortunately stopped with the minor. Throughout the rest of project, the collaboration only increased between the group members. In the end I am adequately happy to have been working with my team and the way we communicated and finished the project. 
+
+
+
+
 starr: 
 situatie
   - wanneer
@@ -32,10 +82,6 @@ reflectie
   - kan je het toepassen in andere situaties.-
  
 
-## reflection on own learning objectives
-
-
-## evaluation on the group project as a whole
 
 
 ## Domain knowledge 
