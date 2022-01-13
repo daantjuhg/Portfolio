@@ -45,7 +45,16 @@ Data is everywhere, from Netflix to google maps, we use and make data daily with
 Phones track steps and different sport activities, able bodied people have their movement info at their fingertips. Research from [badar ud din Tahir,S., etall.(2020)](https://ieeexplore.ieee.org/document/9055944)shows that machine learning models are able to classify 12 different movements, walking forwards/walking left/ etc., correct with 73.33% accuracy. And a Study by [Zengtao Feng, etall.(2015)](https://ieeexplore.ieee.org/document/7319532)  shows that people are still improving their training speed and test accuracy and stability for these movements through different predictive models.This second study also shows that random forest based models work better than more commonly used classifications and non-ensemble classifiers(KNN SVM BN J48). For wheelchair sports we see a slight research gap. Within wheelchair sports the research into classifying movements or sports in lacking. But in the paper from [R.M.Avan der Slikkeab, M.A.M.Berger, etall.,(2015)](https://www.sciencedirect.com/science/article/abs/pii/S0021929015003231?via%3Dihub) research we can conclude wheelchair sport analysis is on the rise. Wheelchair kinematic analysis may be the first and crucial push this field needed to expand the knowledge of wheelchair movements. 
 Further research into the project will be explained later in the portfolio.
 
-     
+## Research project
+### Task definition 
+Like I said before, abled persons have the ability to easily track and monitor their activities throughout the day. With only a phone you can already see your steps, activity time and calorie count. Most phones even have an app with which you can track your performance in trainings like running, swimming or cycling. We see a pattern here; all commonly available sports trackers are focused on steps. But wheelchairs roll you might say, yes, they do. But just like walking has a rhythm, so does riding. This would mean that wheelchair riding could also be monitored. 
+This is where our project comes into play, IMU’s are used to track wheelchair movements in basketball games.  Our goal is to apply this data in machine learning models and extract selected wheelchair movements like sprints.  to reach this goal, the project group set up the following research question with some sub questions, to reach the end goal.
+•	How can IMU data be used to identify wheelchair basketball-specific movements?
+o	Which form of data processing will be used?
+o	Which specific movements can be detected?
+o	Which sensor data is used for each movement?
+o	Can movements be used to predict fatigue?
+o	Can movements be used to detect overload? These sub question will help us to get an answer to the main research question.
 
   ### evaluation
 
