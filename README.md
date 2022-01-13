@@ -57,33 +57,6 @@ Within this group the project went pretty smooth in my opinion. The working envi
 
 
 
-
-starr: 
-situatie
-  - wanneer
-  - wie 
-  - hoe
-taak
-  - wat was mijn taak 
-    - wat heb ik gedaan 
-    - wat wilde ik bereieken
-    - wat werd er van je verwacht
- actie
-  - hoe heb je het opgelost en waarom 
-  - hoe heb je het gedaan
-  - waarom zo leg uit aan de hand van  theoretische concepten the minor or theoretische info van de research
-  - werkte het en waarom
-reflectie
-  - wat heb je geleerd
-  - hoe denk je dat je het hebt gedaan
-  - was je tevreden met het resultaat
-  - wat is de essentie van wat je hebt geleerd.
-  - wat zou je kunnen verbeteren. 
-  - kan je het toepassen in andere situaties.-
- 
-
-
-
 ## Domain knowledge 
 ### introduction to the subject field and literature research
 Data is everywhere, from Netflix to google maps, we use and make data daily without noticing. This data is what this minor is all about. it can be used to predict/classify all sorts of different subjects, from predicting the cheapest day refilling your car to classifying which plant is which based on the color/length of the petals. Personally, I classified wheelchair movements with my project group. Below is an introduction into this subject with scientific proof researched by me. 
