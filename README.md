@@ -48,15 +48,16 @@ Further research into the project will be explained later in the portfolio.
 ## Research project
 ### Task definition 
 Like I said before, abled persons have the ability to easily track and monitor their activities throughout the day. With only a phone you can already see your steps, activity time and calorie count. Most phones even have an app with which you can track your performance in trainings like running, swimming or cycling. We see a pattern here; all commonly available sports trackers are focused on steps. But wheelchairs roll you might say, yes, they do. But just like walking has a rhythm, so does riding. This would mean that wheelchair riding could also be monitored.
+
 This is where our project comes into play, IMU’s are used to track wheelchair movements in basketball games.  Our goal is to apply this data in machine learning models and extract selected wheelchair movements like sprints.  to reach this goal, the project group set up the following research question with some sub questions, to reach the end goal.
-'''
-•	How can IMU data be used to identify wheelchair basketball-specific movements?
-o	Which form of data processing will be used?
-o	Which specific movements can be detected?
-o	Which sensor data is used for each movement?
-o	Can movements be used to predict fatigue?
-o	Can movements be used to detect overload? These sub question will help us to get an answer to the main research question.
-'''
+
+- How can IMU data be used to identify wheelchair basketball-specific movements?
+  -	Which form of data processing will be used?
+  -	Which specific movements can be detected?
+  -	Which sensor data is used for each movement?
+  -	Can movements be used to predict fatigue?
+  -	Can movements be used to detect overload? These sub question will help us to get an answer to the main research question.
+
   ### evaluation
 
   ### conclusions
