@@ -5,7 +5,10 @@ Studentnummer: 19072074
 ## Portfolio
 
 ## DataCamp course 
-60%
+Within the data camp courses I completed 56%. Sometimes I found it hard to follow certain steps in the data camp courses. This made it  a bit  hard for me to finish up. 
+
+[data camp courses completed](https://github.com/daantjuhg/Portfolio/blob/main/datacamp%20courses%20completed.JPG)
+[data camp courses proof](https://github.com/daantjuhg/Portfolio/blob/main/datacamp%20courses%20proof.JPG)
 
 ## reflection on own contribution to the poroject
 ### situation
