@@ -38,13 +38,11 @@ reflectie
 ## evaluation on the group project as a whole
 
 
-## research project 
+## Domain knowledge 
 
-  ### taskdefinition
-     in the first weeks of the project we had a lot of meeting with the problem ower and the teachers.
-     in these weeks it was important to learn about the project and discuss thing that neeeded to be done.
-     in those weeks i had the task of leading those meetings so there was 
-      after a few meetings with rienk 
+  ### introduction to the subject field and literature research
+     Data is everywhere, from Netflix to google maps, we use and make data daily without noticing. This data is what this minor is all about. it can be used to predict/classify all sorts of different subjects, from predicting the cheapest day refilling your car to classifying which plant is which based on the color/length of the petals. Personally, I classified wheelchair movements with my project group. Below is an introduction into this subject with scientific proof researched by me.  
+     Phones track steps and different sport activities, able bodied people have their movement info at their fingertips. Research from [badar ud din Tahir,S., etall.(2020)](https://ieeexplore.ieee.org/document/9055944)
 
   ### evaluation
 
