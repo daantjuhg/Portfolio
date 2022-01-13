@@ -92,9 +92,16 @@ RFC:
 
 The following papers used RFCs to classify human movement analysis with IMU data. these papers i found [badar ud din Tahir,S., etall.(2020)](https://ieeexplore.ieee.org/document/9055944) [Zengtao Feng, etall.(2015)](https://ieeexplore.ieee.org/document/7319532) are comparing RF classifier to other machine learning algorithms. They compare accuracy, stability and training time, in which RFC comes on top. Both of these papers use sensor data, one of which uses similar to IMU sensors; 3-axis gyroscope and 3 axis accelerometers, to investigate and classify movements or sports. 
 
-  ### configuring a model
-  
-  ### training a model
+  ### Training and configuring a model
+After I setup the two models I trained them using the dataset we explored from player A.
+
+The first time running the decision tree model I split the chunk data, created by martijn, in 80% training 20% validation. the whole dataset contained +- 6000 datapoints from which 100 were tagged sprints. this means the validation set had +- 25 tagged sprint points in +- 1500 datapoints. I tuned this decision tree to 100% recall. In the document [Decision tree] (https://github.com/daantjuhg/Portfolio/blob/main/decision%20tree%20sprints.ipynb) you can see that I got a lot of false positive results, these results were stored in a csv file for evaluation later. In the evaluation I will elaborate more on the evaluation of this method. 
+
+For the RFC model we used later in the project i split the data in two parts a training part and validation part, 75% to 25%. First time selecting two features the RFC underfitted this was visualized by plotting a confusion matrix, precision: 86.25% and recall: 69.9%. which is not too bad for a first try, how this is possible will be explained in the chapter data preparation/visualization. After this first try, I made a gridsearch to find better hyperparameters. I made sure to run the model every time with random_state = 42, this way my findings would be comparable. The hyperparameters I tuned were: n_estimators, min_samples_leaf, criterion and max depth. 
+
+From gridsearch and the graphs we can see that gridsearch gives us: 80, 2, gini, 14 as best numbers from the test. But in the RFC below we can see that I eventually went with the numbers: 100, 3, gini, 14. I did this because the numbers I chose had a better recall score by 3% by losing precision of less then 1%. This is important for our project because missing sprints in your match analysis is bad. (plus, we don’t know for certain if the dataset is fully tagged so false positives could be correct sprints. 
+
+
   
   ### evaluating a model
   
