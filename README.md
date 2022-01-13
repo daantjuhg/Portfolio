@@ -60,11 +60,17 @@ This is where our project comes into play, IMU’s are used to track wheelchair 
 
 further research and supporting reasons for these questions can be found in the [plan of approach](https://github.com/daantjuhg/Portfolio/blob/main/Planofapproach.pdf).
 
+### planning
+To reach the end goal of this project in a orderly way the team set up a azure devops, https://dev.azure.com/Wheeeeeeeeeeeeeeels/wheels/_boards/board/t/wheels%20Team/Stories_m_. it was a bit getting used to in the beginning and because of time issues it was also hard to finish it up, but this website helped us a lot keeping track of tasks. Our daily standup would start at 9:30 to discuss/evaluate everyone’s assignments from the day before and explain the planning for today. This would keep the team up to date on the process so we could help each other easily if necessary. Sprints within this project are 2 weeks short, we would evaluate the sprints through a retrospective. In this meeting we would take the time to talk about the group’s strengths and weaknesses. This list would be summed up into three categories, keep/remove/improve. We would also take these times to settle debates between group members and made sure everyone was okay. After the retrospective we would also discuss the new sprint planning. In which we would come up with user stories to complete over the next couple of weeks. Finally, we would determine which user story was most important and how much time it would take to complete. Time for completion gave the group possibility to divide the workload equally. 
+
+In the Plan of Approach Is also an attachment, called ‘planning’, I made for the group. Looking at this planning from time to time gave us an overall overview of how many weeks we still had and helped set up for the next step in the project. Looking back on it the planning was quite short and hefty at the start. Personally, I should have planned more time for research and setup of the project. Personally, I did a few other things and was not so committed to the research part. It should have been my job to communicate better about the planning of the research and discuss this with the group.
+
+
   ### evaluation
 
   ### conclusions
 
-  ### planning
+  
 
 ## Predictive analytics
   ### selecting a model
