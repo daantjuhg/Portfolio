@@ -101,43 +101,32 @@ For the [RFC model](https://github.com/daantjuhg/Portfolio/blob/main/RandomForre
 
 From gridsearch and the graphs we can see that gridsearch gives us: 80, 2, gini, 14 as best numbers from the test. But in the RFC below we can see that I eventually went with the numbers: 100, 3, gini, 14. I did this because the numbers I chose had a better recall score by 3% by losing precision of less then 1%. This is important for our project because missing sprints in your match analysis is bad. (plus, we don’t know for certain if the dataset is fully tagged so false positives could be correct sprints. 
 
-  ### evaluating a model
+  ### evaluating & visualizing a model
   
-Evaluating models was not as easy as it seemed. The dataset provided by our problem owner was not complete. After I first made the [Decision tree](https://github.com/daantjuhg/Portfolio/blob/main/decision%20tree%20sprints.ipynb) model, martijn created a [false positive visualization](https://github.com/MartijnKok/Portfolio/blob/main/Data_Visualization/Check_False_Positives.ipynb)(links you to martijn his github). This code helped martijn and I to check the first false positives of the code. We found that +-50% of the data was positive sprints, we used this to further complete the dataset and let Collin rerun this process one or two more times. After this method we spoke with Jeroen and found another way to find and correct the false positives, this is explained within the research paper page … Alinea … After this method we are positive that the data is complete enough to run valid, training validation ad testing. 
+Evaluating models was not as easy as it seemed. The dataset provided by our problem owner was not complete. After I first made the [Decision tree](https://github.com/daantjuhg/Portfolio/blob/main/decision%20tree%20sprints.ipynb) model, martijn created a [false positive visualization](https://github.com/MartijnKok/Portfolio/blob/main/Data_Visualization/Check_False_Positives.ipynb)(links you to martijn his github). This code helped martijn and I to check the first false positives of the code. We found that +-50% of the data was positive sprints, we used this to further complete the dataset and let Collin rerun this process one or two more times. After this method we spoke with Jeroen and found another way to find and correct the false positives, this is explained within [the research paper](https://github.com/daantjuhg/Portfolio/blob/main/Research_Paper_Project_Wheels.pdf) page 3 Alinea 3 After this method we are positive that the data is complete enough to run valid, training validation ad testing. 
 
-  ### visualizing the outcome of a model
+For my [RFC model](https://github.com/daantjuhg/Portfolio/blob/main/RandomForrestCLassifier%20sprints.ipynb) (that used the final dataset stated above) I used a confusion matrix to evaluate and visualize the outcome. From this plot I could calculate the recall score, precision score and accuracy of the model. Below I will show the scores over the training & validation set since this was what I did. 
   
-## Domain knowledge
-  ### introduction of the subject field
-  The student has written a good and complete introduction of the subject field.
-
-  ### Literature research
-  
-  
-  ### Explanation of Terminology, jargon and definitions
-  
-## Data procesing
+## Data preprocesing
   ### Data exploration 
-    The student properly examined and visualized the data, distributions, outliers, correlations and used that analysis to give directions for an early hypothesis.
-    in the early stages of the project i have looked at a lot of graphs. we would first look at fast breaks and fast defences. the movements could be split in two movements,
-    rotations and sprints. within those graphs me and martijn came to the conclusion that there are two features that define a sprint. the first and most important feature
-    for sprints is the wheelrotationalspeedX, this shows the wheelturning speed, it will show the push offs of the player. the second feature is the framerotationalspeedZ,
-    this shows the turning speed of the wheelchair, it wil show if the wheelchair is moving in a straight line. 
+    At the start of the project martijn and I looked at a lot of data. We made graphs of basketball fast offences and fast defenses. In these graphs we tried looking for movements, Rienk his intern tagged video data we could use to find these. The specific movements we looked for was a 180-degree rotation followed by a sprint. Martijn plotted two features, wheelrotationalspeedX and framrotationalspeedZ, which are indeed the two most important features for these movements. Sometime later in the project I found myself tinkering with these features to find other patterns for these movements. In [visualization function fast offence](https://github.com/daantjuhg/Portfolio/blob/main/Visualisation%20function%20Fast%20offense.ipynb), you can see that I tinkered with the variables and plotted them to see which feature would be useful in different situations. Behind the features/variables I have written down what movements influences it. In my [RFC model](https://github.com/daantjuhg/Portfolio/blob/main/RandomForrestCLassifier%20sprints.ipynb) i made some plots to visualize features to try and find correlations. wich could be used in feature selection.
   
   ### Data preperation 
-  The student prepared the data in an appropriate way, where necessary transforming data, removing outliers, filling in missing values, etc.
-
-    preparing the dataset was my main focus. i looke at the data and searched for paterns in the different features we got from rienk.
-    for this visualization a program was written that i studied and changed for usage. the first changes that were made was simplle multiplications. 
-    this way the numbers were all around the same numbers. +- 500. after i started working with means, and low pass filters. 
-  
+ Balancing the data, our data was very unbalanced at first. Were martijn wrote a script for balancing the data for sprints I have written one for rotations, [balancing dataset rotations](https://github.com/daantjuhg/Portfolio/blob/main/balancing%20dataset.ipynb). In my program I copied and pasted the data a few times to get a total set of +- 530000 datapoints with +- 80000 tagged rotations, around 15%. My plan was to use this data to train the models and find more accurately the false positive rotations. Sadly, I could not check my theory because of time issues. 
   
   ### Data explanation 
-  
+Our dataset consisted of multiple measurements. The first being the IMU data. The wheelchair basketball players had 2 imu’s on their wheelchair, one on the frame and one on the wheel. Both IMU’s have 3 accelerometers and 3 gyroscopes. Rienk pre calculated the imu data to workable features, we ended up with 3 axis features for each of the IMU(XYZ) and we ended up with an additional 7 features for the movements of the entire wheelchair, the rotational: speed/acceleration/angle and the forward: speed/acceleration/displacement. 
+Actions that athletes make during matches were tagged by rienk his intern, he would watch the video and write down what movement was made at wich time in the game. These movements, our ground truth, needed to be implemented into the dataset and synchronized to the timeline. 
+
   ### Data visualization 
-  
+i refer to my previous statements about visualization in the following documents:
+ [visualization function fast offence](https://github.com/daantjuhg/Portfolio/blob/main/Visualisation%20function%20Fast%20offense.ipynb)
+ [RFC model](https://github.com/daantjuhg/Portfolio/blob/main/RandomForrestCLassifier%20sprints.ipynb)
+ 
 ## communication 
-  ### Presentations
-  
-  
-  ### Writing paper
+ Whitin the project I got the task to lead meetings, especially in the first few weeks of the project. In these weeks it is important to know what the group wants to talk about because the group needs to have a clear grasp of the project. My job was to make meeting agenda’s, watch the meeting times, lead the conversation, make everyone speak, and touch upon all the subjects. 
+ 
+Also, I have lead 3/4/5 presentations during the project 2 internal meetings and 3 external meetings one with collin. I not only tried to just do the presentations I also used these times to catch upon work within the group. We are working with a lot of IT specialists which means sometimes not every piece of work is explained to the fullest. In the presentations I tried to get a clear view of everyone’s work so the presentations can be explained more in depth. 
+
+Further in the paper I have written a few parts myself. Someone within the group made a setup for the paper wich needed to be tinkered a lot. With the whole group we made work of it. We made several meetings to write the paper. In these meetings martijn and I generally lead the meetings. We walk through the paper and the comments written. From these comments we made tasklists to divide between the group.
+
