@@ -58,6 +58,8 @@ This is where our project comes into play, IMU’s are used to track wheelchair 
   -	Can movements be used to predict fatigue?
   -	Can movements be used to detect overload? These sub question will help us to get an answer to the main research question.
 
+further research and supporting reasons for these questions can be found in the [plan of approach].
+
   ### evaluation
 
   ### conclusions
